@@ -1,2 +1,13 @@
-<h1> Ejercico Angular </h1>
+<div class="container">  
+  <h1 class="title"> Ejercicio Angular </h1>
 
+  <button class="buttom" (click)='mostrarLista()'> 
+    Mostar Lista
+  </button>
+
+  <hr class="separator">
+  <div *ngIf="mostrar">
+    <app-listado></app-listado>
+  </div>
+
+</div>

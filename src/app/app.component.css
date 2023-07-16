@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+
+}
+
+.title {
+  margin: 25px;
+}
+
+.buttom {
+  width: 180px; 
+  height: 25px; 
+  margin: auto;
+}
+
+.separator {
+  margin: 20px;
+  color: #ccd1d1;
+}

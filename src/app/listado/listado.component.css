@@ -1,0 +1,17 @@
+table,
+thead,
+tbody,
+tfoot,
+tr,
+td,
+th {
+	text-align: center;
+	margin: auto;
+  border-collapse: collapse;
+  border-bottom: solid 1px;
+	width: 85%;
+}
+
+td {
+  padding: 5px;
+}
