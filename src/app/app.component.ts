@@ -8,13 +8,10 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'EjercicioAngular';
 
-  mostrar: boolean = true;
+  mostrar: boolean = false;
 
   mostrarLista() {
     this.mostrar= !this.mostrar
-
+    console.log(this.mostrar);
   }
-
-
-
 }

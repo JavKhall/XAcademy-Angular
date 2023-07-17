@@ -1,13 +1,17 @@
 .container {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   width: 80%;
-
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
 }
 
 .title {
-  margin: 25px;
+  display: block;
+  width: 100%;
+  justify-items: center;
+  margin: 30px auto;
+  text-align: center;
 }
 
 .buttom {
@@ -17,6 +21,6 @@
 }
 
 .separator {
-  margin: 20px;
+  margin: 20px auto;
   color: #ccd1d1;
 }

@@ -1,13 +1,13 @@
 <table class="table-products">
   <thead>
-    <tr>
+    <tr class="th-name">
       <th>Nombre</th>
       <th>Precio</th>
     </tr>
   </thead>
   <tbody>
     <tr *ngFor="let producto of listado">
-      <td>{{producto.name}}</td>
+      <td class="product-name">{{producto.name}}</td>
       <td>{{producto.price | currency}}</td>
     </tr>
     <!-- <li *ngFor="let producto of listado">

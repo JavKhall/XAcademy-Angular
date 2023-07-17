@@ -16,20 +16,32 @@ type Producto = {
 export class ListadoComponent {
   listado: Producto[] = [
     {
-      name: 'Samsung S20',
-      price: 1500
+      name: 'iPhone 9',
+      price: 549
     },
     {
-      name: 'Samsung S21',
-      price: 1600
+      name: 'OPPOF19',
+      price: 280
     },
     {
-      name: 'Samsung S22',
-      price: 1700
+      name: 'MacBook Pro',
+      price: 1749
     },
     {
       name: 'Samsung S23',
       price: 1800
+    },
+    {
+      name: 'Samsung Galaxy Book',
+      price: 1499
+    },
+    {
+      name: 'Microsoft Surface Laptop 4',
+      price: 1499
+    },
+    {
+      name: 'HP Pavilion 15-DK1056WM',
+      price: 1099
     }
   ]
 }
